@@ -55,13 +55,19 @@ When you make a commit in git, you are moving the version pointer from the previ
 **Note:** Though outside the scope of this article, it's worth noting that these commit numbers are integral in git's implementation of version control. [Check this out for more info on that.](https://www.freecodecamp.org/news/the-ultimate-guide-to-git-reset-and-git-revert/) 
 {: .box-note}
 
-To commit your staged changes, you must run **git commit** and also pass a flag, -m, which stands for message, and a description (message) of the changes made between this commit and the last, passed as a string. This would look like the following:
+To commit your staged changes, you must run **git commit** and also pass a flag, -m, which stands for message, and a description (message) of the changes made between this commit and the last, passed as a string. You would type this in your terminal, with your own message:
 ```bash
-git commit -m "Description of changes"
+git commit -m "message"
 ```
 With your staged files now committed, you can move onto pushing your code to Github.
 
 ### Step 3: git push
+
+The final step is to push your code from it's repo in your local machine to it's counterpart in Github's server. As long as you haven't [branch](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)ed away from the master branch, you should be able to run the following code in your terminal and get the expected outcome:
+```bash
+git push
+```
+By default, the master branch on your computer already has an upstream to it's counterpart hosted on Github's servers because you cloned the repo from Github. This means simply executing **git push** will save all of our committed changes to the repo in Github's database.
 
 
 
