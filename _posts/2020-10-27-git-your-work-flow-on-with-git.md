@@ -6,8 +6,8 @@ gh-repo: davidmolina2810/programming-prose
 gh-badge: [star, fork, follow]
 tags: [git, collaborate]
 comments: true
-cover-img: https://miro.medium.com/max/2216/1*kA2tpV8So5280jyvzuBjcg.gif
-thumbnail-img: https://p1.hiclipart.com/preview/553/861/236/git-line-github-version-control-computer-software-repository-branching-commit-merge-png-clipart-thumbnail.jpg
+cover-img: https://res.cloudinary.com/practicaldev/image/fetch/s---Xg28U2u--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/q7uy4yxekcljpr70p2xk.png
+thumbnail-img: https://icons-for-free.com/iconfiles/png/512/git-1321215619369622218.png
 readtime: true
 ---
 
