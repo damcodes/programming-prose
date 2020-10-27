@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git Your Work Flow On With Git
-subtitle: Basic git commands: add, commit, push
+subtitle: Basic git commands--add, commit, push
 gh-repo: davidmolina2810/programming-prose
 gh-badge: [star, fork, follow]
 tags: [git]
