@@ -69,5 +69,17 @@ git push
 ```
 By default, the master branch on your computer already has an upstream to it's counterpart hosted on Github's servers because you cloned the repo from Github. This means simply executing **git push** will save all of our committed changes to the repo in Github's database.
 
+### Conclusion
+With this post I aimed to provide a basic, introductory understanding of working with three core git commands--**git add**, **git commit**, and **git push**--through the command line. With this basic understanding you could also understand the basics of version control in git. This, however, is just the tip of the iceberg. Git is powerful enough to help with advanced version control (i.e. branching, merging, reseting, etc.) and with project management and collaboration. 
+
+#### Learn more
+- [Learn Git- Git tutorials, workflows, and commands](https://www.atlassian.com/git)
+- [First steps with git](https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/)
+- [The Ultimate Github Collaboration Guide](https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67)
+
+
+
+
+
 
 
