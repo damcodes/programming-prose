@@ -29,8 +29,8 @@ In practice, this translates to these three commands
 
 As you edit your code, any file within the root directory of your project that has been changed in anyway, from adding comments to defining a method, will now be referred to as "unstaged". This just means that you've adjusted your files in some way but you have yet to tell git that you want to prepare, or "stage", those changes to be transferred from existing only on your machine to saving into the repository in Github's servers.
 
-{: .box-note}
 **Note:** You can check to see if you have any unstaged files in your repo by executing **git status**.
+{: .box-note}
 
 To execute git add, you call git add and pass the name of the file you would like to stage into your terminal.
 
@@ -51,7 +51,7 @@ The period after git add is a reference to your root directory. The code is inst
 
 When you make a commit in git, you are moving the version pointer from the previous picture of your code to the new picture of your code with the changes you just staged. Each commit is logged and given a unique, alphanumeric **commit number**.
 
-{: .box-note}
-**Note:**Though outside the scope of this article, it's worth noting that these commit numbers are integral in git's implementation of version control. [Check this out for more info on that.](https://www.freecodecamp.org/news/the-ultimate-guide-to-git-reset-and-git-revert/) 
 
+**Note:** Though outside the scope of this article, it's worth noting that these commit numbers are integral in git's implementation of version control. [Check this out for more info on that.](https://www.freecodecamp.org/news/the-ultimate-guide-to-git-reset-and-git-revert/) 
+{: .box-note}
 
