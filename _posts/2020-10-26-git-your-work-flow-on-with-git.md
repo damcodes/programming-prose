@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Git Your Work Flow On With Git
-subtitle: Intro to basic git commands
+subtitle: Basic git commands: add, commit, push
 gh-repo: davidmolina2810/programming-prose
 gh-badge: [star, fork, follow]
 tags: [git]
 comments: true
 ---
 
-#### Git. _Git?_ **GIT!**
+### Git. _Git?_ **GIT!**
 What is git? Must I master it to truly call myself a competent programmer?
 What's _really_ the point?
 
@@ -25,23 +25,31 @@ In practice, this translates to these three commands
 3. git push
 ```
 
-#### Step One: git add
+### Step One: git add
 
 As you edit your code, any file within the root directory of your project that has been changed in anyway, from adding comments to defining a method, will now be referred to as "unstaged". This just means that you've adjusted your files in some way but you have yet to tell git that you want to prepare, or "stage", those changes to be transferred from existing only on your machine to saving into the repository in Github's servers.
+{: .box-note}
+**Note:** You can check to see if you have any unstaged files in your repo by executing **git status**.
 
-To execute git add, you must pass the name of the file you would like to stage
+To execute git add, you call git add and pass the name of the file you would like to stage into your terminal.
 
 ```bash
 git add <unstaged_file_name>
 ```
 Many times, though, you've altered more than one file and at this point, we'd have to call git add for each unstaged file. 
 
-_Wait..._ Are not we programmers? And as such, are not we lazy? 
-Indeed we are. And our sloth demands that we use this when we want to stage multiple files:
+_But wait..._ Are not we programmers? And as such, are not we lazy? 
+Indeed we are. And our sloth demands that we use this shortcut when we want to stage _every_ file in our repo:
 
 ```bash
 git add .
 ```
-The period after git add is a reference to your root directory. The code is instructing git to add all unstaged files (all files in the root directory that have been altered since the last version) to be staged. Now they are ready to be committed.
+The period after git add is a reference to your root directory. The code is instructing git to add all unstaged files (all files in the root directory that have been altered since the last version) to be staged. Now that they are staged, they are ready to be committed.
 
-#### Step Two: git commit
+### Step Two: git commit
+
+When you make a commit in git, you are moving the version pointer from the previous picture of your code to the new picture of your code with the changes you just staged. Each commit is logged and given a unique, alphanumeric **commit number**. 
+{: .box-note}
+**Note:**Though outside the scope of this article, it's worth noting that these commit numbers are integral in git's implementation of version control. [Check this out for more info on that.](https://www.freecodecamp.org/news/the-ultimate-guide-to-git-reset-and-git-revert/) 
+
+
