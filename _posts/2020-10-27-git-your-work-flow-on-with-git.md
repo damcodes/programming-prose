@@ -29,7 +29,7 @@ In practice, this translates to these three commands
 
 As you edit your code, any file within the root directory of your project that has been changed in anyway, from adding comments to defining a method, will now be referred to as "unstaged". This just means that you've adjusted your files in some way but you have yet to tell git that you want to prepare, or "stage", those changes to be transferred from existing only on your machine to saving into the repository in Github's servers.
 
-**Note:** You can check to see if you have any unstaged files in your repo by executing **git status**.
+**Note:** You can check to see if you have any unstaged files in your repo by executing **git status** in your terminal while in the root directory of your project.
 {: .box-note}
 
 To execute git add, you call git add and pass the name of the file you would like to stage into your terminal.
@@ -45,7 +45,7 @@ Indeed we are. And our sloth demands that we use this shortcut when we want to s
 ```bash
 git add .
 ```
-The period after git add is a reference to your root directory. The code is instructing git to add all unstaged files (all files in the root directory that have been altered since the last version) to be staged. Now that they are staged, they are ready to be committed.
+The period after **git add** is a reference to your root directory. The code is instructing git to add all unstaged files (all files in the root directory that have been altered since the last version) to be staged. Now that they are staged, they are ready to be committed.
 
 ### Step Two: git commit
 
@@ -54,4 +54,14 @@ When you make a commit in git, you are moving the version pointer from the previ
 
 **Note:** Though outside the scope of this article, it's worth noting that these commit numbers are integral in git's implementation of version control. [Check this out for more info on that.](https://www.freecodecamp.org/news/the-ultimate-guide-to-git-reset-and-git-revert/) 
 {: .box-note}
+
+To commit your staged changes, you must run **git commit** and also pass a flag, -m, which stands for message, and a description (message) of the changes made between this commit and the last, passed as a string. This would look like the following:
+```bash
+git commit -m "Description of changes"
+```
+With your staged files now committed, you can move onto pushing your code to Github.
+
+### Step 3: git push
+
+
 
