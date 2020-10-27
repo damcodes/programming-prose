@@ -15,7 +15,7 @@ readtime: true
 What is git? Must I master it to truly call myself a competent programmer?
 What's _really_ the point?
 
-Git is a [version control system](https://www.geeksforgeeks.org/version-control-systems/#:~:text=Version%20control%20systems%20are%20a,(snapshots)%20of%20the%20project.)(VSC) that we can run directly in a terminal using [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) commands. The point of any version control system is to offer some sort of mechanism to log checkpoints in your progress.
+Git is a [version control system](https://www.geeksforgeeks.org/version-control-systems/#:~:text=Version%20control%20systems%20are%20a,(snapshots)%20of%20the%20project.)(VCS) that we can run directly in a terminal using [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) commands. The point of any version control system is to offer some sort of mechanism to log checkpoints in your progress.
 The mechanism provided to us by git does this by "taking a picture", let's call it picture A, of the current state of your code. Then, git points to picture A as the most recent version of your code, and adds the picture to a collection of _all_ the pictures taken of your code. Until you command git to take another picture, that is, you specify a more recent checkpoint in your progress, git will continue to point to picture A as the most up-to-date version of your code. 
 
 The most basic git workflow you should get familiar with is staging your changes, committing your changes, and saving the changes you made on your local machine to the Github server, where your repository is located. 
