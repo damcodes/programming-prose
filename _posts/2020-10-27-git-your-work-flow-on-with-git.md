@@ -6,6 +6,8 @@ gh-repo: davidmolina2810/programming-prose
 gh-badge: [star, fork, follow]
 tags: [git, collaborate]
 comments: true
+cover-img: https://rubygarage.s3.amazonaws.com/uploads/article_image/file/606/life-is-a-mess-without-git.jpg
+thumbnail_img: https://p1.hiclipart.com/preview/553/861/236/git-line-github-version-control-computer-software-repository-branching-commit-merge-png-clipart-thumbnail.jpg
 ---
 
 ### Git. _Git?_ **GIT!**
