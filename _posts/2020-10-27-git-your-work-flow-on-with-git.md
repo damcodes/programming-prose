@@ -49,7 +49,7 @@ The period after **git add** is a reference to your root directory. The code is 
 
 ### Step Two: git commit
 
-When you make a commit in git, you are moving the version pointer from the previous picture of your code to the new picture of your code with the changes you just staged. Each commit is logged and given a unique, alphanumeric **commit number**. Here, you are instructing git to point to this picture as the most updated version of your code.
+When you make a commit in git, you are moving the version pointer from the previous picture of your code to the new picture of your code with the changes you just staged. Each commit is logged and given a unique, alphanumeric **commit number**. Here, you are instructing git to point to this picture, this commit, as the most updated version of your code.
 
 
 **Note:** Though outside the scope of this article, it's worth noting that these commit numbers are integral in git's implementation of version control. [Check this out for more info on that.](https://www.freecodecamp.org/news/the-ultimate-guide-to-git-reset-and-git-revert/) 
