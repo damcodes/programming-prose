@@ -1,7 +1,9 @@
 ---
 layout: page
 title: About me
-subtitle: Software Engineering student
+subtitle: Future Software Engineer
+
+cover-img: "https://media4.giphy.com/media/6rdwRegqbDczu/giphy.gif?cid=ecf05e47rrk1ut0vb4dq458d5evm7541jt5471r1l8anodpn&rid=giphy.gif"
 ---
 
 ### My story
