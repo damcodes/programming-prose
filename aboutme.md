@@ -3,7 +3,7 @@ layout: page
 title: About me
 subtitle: Future Software Engineer
 
-cover-img: "https://media4.giphy.com/media/6rdwRegqbDczu/giphy.gif?cid=ecf05e47rrk1ut0vb4dq458d5evm7541jt5471r1l8anodpn&rid=giphy.gif"
+cover-img: "https://media3.giphy.com/media/4Nq6qjz9FKfRSYwr48/giphy.gif?cid=ecf05e473a462ba3464a520a3d6c033ef5a1759e7c88cf96&rid=giphy.gif"
 ---
 
 ### My story
