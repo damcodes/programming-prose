@@ -22,7 +22,7 @@ Fast forward to today and here I am, actually learning to become the wizard youn
 In addition to being an aspiring wizard as a kid, I was also quite the stubborn smartass. A smartass with an incessant need to understand underlying meaning in everything. 
 
 > **Adult:** "The sky is blue."<br>
-> Me: "Why?"<br>
+> **Me:** "Why?"<br>
 > **Adult:** "Because it is."<br>
 > **Me:** "Okay. But _why?_"<br>
 > **Adult:** "I'm not a scientist, I don't know."<br>
@@ -31,4 +31,14 @@ In addition to being an aspiring wizard as a kid, I was also quite the stubborn 
 > **Me:** "Awesome! But.. Why?"
 
 As I'm progressing through each phase at Flatiron, though, these two parts of myself are beginning to conflict. At Flatiron, we are learning all the latest concepts, practices, and frameworks. All the cutting edge spells and potions. While it's awesome, and deploying a whole web app with just a few spells, a few commands in the terminal, really feels like performing magic, my more analytical self is really struggling to accept it. 
+
+### Ruby, Rails, ActiveRecord, etc. A.K.A.: Magic
+
+Here's a definition for you: 
+
+> Ruby is a compiled language in much the same way that Java is. While ruby is not compiled down to native machine code, it is compiled into a set of bytecode instructions that are interpreted by a virtual machine. In the case of Java the VM is JVM, in the case of Ruby it is YARV, which stands for “Yet another ruby virtual-machine”.<br>
+> In order to compile your program, ruby recursively iterates over the nodes in the AST from the top down and compiles each node into corresponding YARV instructions. <br>
+> Source: [The Structure and Interpretation of Ruby Programs](https://buildingvts.com/the-structure-and-interpretation-of-ruby-programs-362db0412f29)
+
+Now, my initial thought to reading that definition is: "**WTF does that even mean???**"
 
