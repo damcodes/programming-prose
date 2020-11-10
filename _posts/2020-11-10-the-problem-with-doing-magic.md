@@ -6,6 +6,7 @@ gh-repo: davidmolina2810/programming-prose
 gh-badge: [star, fork, follow]
 tags: 
 comments: true
+readtime: true
 ---
 
 ### Enter Wizard Boy
