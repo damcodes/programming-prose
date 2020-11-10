@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Problem With Doing Magic
-subtitle: Wizard Boy's Struggle
+subtitle: 
 gh-repo: davidmolina2810/programming-prose
 gh-badge: [star, fork, follow]
 tags: 
@@ -32,7 +32,7 @@ In addition to being an aspiring wizard as a kid, I was also quite the stubborn 
 
 As I'm progressing through each phase at Flatiron, though, these two parts of myself are beginning to conflict. At Flatiron, we are learning all the latest concepts, practices, and frameworks. All the cutting edge spells and potions. While it's awesome, and deploying a whole web app with just a few spells, a few commands in the terminal, really feels like performing magic, my more analytical self is really struggling to accept it. 
 
-### Ruby, Rails, ActiveRecord, etc. A.K.A.: Magic
+### Ruby, ActiveRecord, Rails etc. A.K.A.: Magic
 
 Here's a definition for you: 
 
@@ -40,5 +40,11 @@ Here's a definition for you:
 > In order to compile your program, ruby recursively iterates over the nodes in the AST from the top down and compiles each node into corresponding YARV instructions. <br>
 > Source: [The Structure and Interpretation of Ruby Programs](https://buildingvts.com/the-structure-and-interpretation-of-ruby-programs-362db0412f29)
 
-Now, my initial thought to reading that definition is: "**WTF does that even mean???**"
+Now, my initial thought to reading that definition is: "**WTF does that _even mean_???**" Then, "Bytecode instructions?", "What's a node?", "AST???".
+Despite acquiring the skills to do things like write an entire CLI app, manipulate data in a database using ORM, and create an interactive web app, I couldn't tell you what's _really_ going on. I couldn't tell you what exactly the computer is doing, how it's processing the information, or how it knows to do what I'm telling it to do. 
+
+Ruby is high-level programming language. At a glance, that's awesome. I was able to learn the language and begin producing programs in a relatively short amount of time. My problem is, I cannot just glance. I must stare. Inspect. **Scrutinize**. Before I had time to do that though, we kicked it up a level of abstraction. We started learning ActiveRecord. Before I knew it, we had kicked it up _multiple_ levels of abstraction, using Rails as a framework for making dynamic websites. ActionView helpers. ActionController. Form_for. Form_with. Collection_select.All these terms, modules, methods, and classes predefined _for_ me. Don't get me wrong, though. I highly appreciate the work of those who came before me. Truly magical work. As a control freak with a need to understand why, though, it's pretty stressful to accept that the sky is blue simply because the sky is blue. 
+
+Moreover, it's become especially stressful to work within the constraints of all this predefined code.
+
 
