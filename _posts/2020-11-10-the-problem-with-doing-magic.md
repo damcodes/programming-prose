@@ -19,15 +19,15 @@ Anyway, my siblings and I lived with our grandparents and we didn't own a comput
 Fast forward to today and here I am, actually learning to become the wizard young me aspired to be. It's definitely not as magical as I thought it would be, though. Or maybe, it's _too_ magical. 
 
 In addition to being an aspiring wizard as a kid, I was also quite the stubborn smartass. A smartass with an incessant need to understand underlying meaning in everything. 
----
-**Adult:** "The sky is blue."
-Me: "Why?"
-**Adult:** "Because it is."
-**Me:** "Okay. But _why?_"
-**Adult:** "I'm not a scientist, I don't know."
-**Me:** "WELL WHY AREN'T YOU?"
-**Scientist:** "The sky is blue because the gases in our atmosphere scatter the light from the sun. Blue light gets scattered more than any other color because it has the shortest wavelength, thus having the highest frequeny and carrying the most energy, translating to us perceiving the sky as blue most of the time. 
-**Me:** "Awesome! But.. Why?"
----
+
+> **Adult:** "The sky is blue."
+> Me: "Why?"
+> **Adult:** "Because it is."
+> **Me:** "Okay. But _why?_"
+> **Adult:** "I'm not a scientist, I don't know."
+> **Me:** "WELL WHY AREN'T YOU?"
+> **Scientist:** "The sky is blue because the gases in our atmosphere scatter the light from the sun. Blue light gets scattered more than any other color because it has the shortest wavelength, thus having the highest frequeny and carrying the most energy, translating to us perceiving the sky as blue most of the time. 
+> **Me:** "Awesome! But.. Why?"
+
 As I'm progressing through each phase at Flatiron, though, these two parts of myself are beginning to conflict. At Flatiron, we are learning all the latest concepts, practices, and frameworks. All the cutting edge spells and potions. While it's awesome, and deploying a whole web app with just a few spells, a few commands in the terminal, really feels like performing magic, my more analytical self is really struggling to accept it. 
 
