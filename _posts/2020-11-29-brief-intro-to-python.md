@@ -38,7 +38,7 @@ Congrats! As a practicing Rubyist, you've already gained a solid grasp of variab
 In Ruby, we have arrays&mdash;a data structure used to hold data of different types and assign an index to each one. Python's equivalent is called a List. Functionally, a list is the same as a Ruby array. 
 
 List definition:  
->A list is a data structure in Python that is a mutable, or changeable, ordered sequence of elements.
+>A list is a data structure in Python that is a mutable, or changeable, ordered sequence of elements.  
 Source: [Understanding Lists in Python 3](https://www.digitalocean.com/community/tutorials/understanding-lists-in-python-3#:~:text=versions%20279.6k-,Introduction,values%20between%20square%20brackets%20%5B%20%5D%20.)
 
 Ruby:  
@@ -54,7 +54,7 @@ As you can see, lists and arrays are very similar. The syntax for creating a new
 A Hash in Ruby is a data structure composed of key and value pairs. And, you guessed it, Python has it's own similar data structure. A Dictionary! Just as in Ruby, a Python dictionary is an unordered collection of key-value pairs. Dictionary is a much better and descriptive name for such a structure. A real dictionary is exactly the same as a Python dictionary. You search the dictionary by word&mdash;key&mdash;and it returns to you the definition&mdash;value&mdash;of that word.  
 
 Dictionary definition:  
->Dictionaries are Python’s implementation of a data structure that is more generally known as an associative array. A dictionary consists of a collection of key-value pairs. Each key-value pair maps the key to its associated value.
+>Dictionaries are Python’s implementation of a data structure that is more generally known as an associative array. A dictionary consists of a collection of key-value pairs. Each key-value pair maps the key to its associated value.  
 Source: [Dictionaries in Python](https://realpython.com/python-dicts/)
 
 Ruby:  
