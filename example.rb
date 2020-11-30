@@ -8,7 +8,7 @@ nums2 = Array.new([1, 2, 3, 4])
 nums[0] # => 1
 nums[1] # => 2
 
-# Iterate over list using for loop
+# Iterate over array Array.each enumerable
 nums.each do |element|
   puts element
 end
@@ -18,7 +18,7 @@ end
 #    4
 # [1, 2, 3, 4]
 
-# Iterate over list and map new list 
+# Iterate over array and map new array using Array.map enumberable
 nums_doubled = nums.map {|element| element * 2}
 # >>> [2, 4, 6, 8]
 
