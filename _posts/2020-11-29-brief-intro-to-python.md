@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Super Brief Intro to Python
+title: A Brief Intro to Python
 subtitle: From Rubyist to Pythonista
 gh-repo: davidmolina2810/programming-prose
 gh-badge: [star, fork, follow]
@@ -23,10 +23,27 @@ With this introductory knowledge, let's get into some basics of actually writing
 
 ### Variables 
 
-Variables, variable assignment, and variable _re_-assignment in Ruby and Python are virtually identical. In both languages, variables are dynamically typed and reference objects. So, as a practicing Rubyist, you can confidentally say you know some Python as well.
+Variables, variable assignment, and variable _re_-assignment in Ruby and Python are virtually identical. In both languages, variables are dynamically typed and reference objects. 
 
-In Ruby  
+Ruby:    
 ![Variable Assignment Ruby](../assets/img/ruby-variable-assignment.png){:class="img-responsive"}  
 
-And, in Python  
+Python:    
 ![Variable Assignment Python](../assets/img/python-variable-assignment.png){:class="img-responsive"}  
+
+Congrats! As a practicing Rubyist, you've already gained a solid grasp of variables in Python!
+
+### Arrays ==> Lists
+
+In Ruby, we have arrays&mdash;a data structure used to hold data of different types and assign an index to each one. Python's equivalent is called a List. Functionally, a list is the same as a Ruby array. 
+
+Ruby:  
+![Arrays in Ruby](../assets/img/ruby-array.png){:class="img-responsive"}  
+
+Python:  
+![Lists in Python](../assets/img/python-list.png){:class="img-responsive"}  
+
+As you can see, lists and arrays are very similar. The syntax for creating a new list and array are identical when using the array/list literals. One huge differnce is how we iterate over a list in Python versus iterating over an array in Ruby. Ruby provides enumerables that make iteration super easy (Ruby is super flexible and magical) so that you never really have to use a for loop to iterate in Ruby. In Python, though, there are no enumberable methods that can be called _on_ a list. While there are _functions_ such as map() that can be passed a list as an argument, if you want to simply do some work on a list such as printing out each element, the preferred, most efficient, and explicit way to achive this is through a **for** loop. Taking a close look, you can see that the syntax in a for loop iterating over a list is pretty similar to that of the enumerables in Ruby in block form.  
+
+
+
