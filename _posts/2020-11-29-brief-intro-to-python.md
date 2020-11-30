@@ -49,6 +49,8 @@ Python:
 
 As you can see, lists and arrays are very similar. The syntax for creating a new list and array are identical when using the array/list literals. One huge differnce is how we iterate over a list in Python versus iterating over an array in Ruby. Ruby provides enumerables that make iteration super easy (Ruby is super flexible and magical) so that you never really have to use a for loop to iterate in Ruby. In Python, though, there are no enumberable methods that can be called _on_ a list. While there are _functions_ such as map() that can be passed a list as an argument, if you want to simply do some work on a list such as printing out each element, the preferred, most efficient, and explicit way to achive this is through a **for** loop. Taking a close look, you can see that the syntax in a for loop iterating over a list is pretty similar to that of the enumerables in Ruby in block form.  
 
+Python also has built-in [List Methods](https://docs.python.org/3/tutorial/datastructures.html) for list manipulation, such as adding to list, deleting from, and even sorting a list.
+
 ### Hash ==> Dictionary
 
 A Hash in Ruby is a data structure composed of key and value pairs. And, you guessed it, Python has it's own similar data structure. A Dictionary! Just as in Ruby, a Python dictionary is an unordered collection of key-value pairs. Dictionary is a much better and descriptive name for such a structure. A real dictionary is exactly the same as a Python dictionary. You search the dictionary by word&mdash;key&mdash;and it returns to you the definition&mdash;value&mdash;of that word.  
@@ -63,7 +65,16 @@ Ruby:
 Python:  
 ![Dictionaries in Python](../assets/img/python-dictionary.png){:class="img-responsive"}
 
+Creating a new dictionary instance is very similar to creating a new hash instance in Ruby, aside from small syntactical differences. In Ruby, if you want to use a string as a key, you must use the arrow syntax **"key" => value**. Using **"key":value** would convert the string into a Ruby symbol. Python does not support use of symbols, and there are only 2 syntactical ways to add a key-value pair to a dictionary. 
 
-
+```python 
+new_dictionary = {"one": 1}
+``` 
+Or, if the dictionary has already been declared, you can assign new key-value pairs using square brackets and the assignment operator, "=".
+```python
+newer_dictionary = {}
+newer_dictionary["one"] = 1
+```
+Additionally, there are built-in [Dictionary Methods](https://realpython.com/python-dicts/#built-in-dictionary-methods) for manipulating dictionaries. 
 
 
