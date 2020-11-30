@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Brief Intro to Python
+title: A (Super) Brief Intro to Python
 subtitle: From Rubyist to Pythonista
 gh-repo: davidmolina2810/programming-prose
 gh-badge: [star, fork, follow]
@@ -69,12 +69,34 @@ Creating a new dictionary instance is very similar to creating a new hash instan
 
 ```python 
 new_dictionary = {"one": 1}
+new_dictionary 
+>>> {'one': 1}
 ``` 
 Or, if the dictionary has already been declared, you can assign new key-value pairs using square brackets and the assignment operator, "=".
 ```python
 newer_dictionary = {}
 newer_dictionary["one"] = 1
+newer_dictionary 
+>>> {'one': 1}
 ```
 Additionally, there are built-in [Dictionary Methods](https://realpython.com/python-dicts/#built-in-dictionary-methods) for manipulating dictionaries. 
+
+### Conclusion
+
+Python is a powerful, high-level language. It's an immensely popular language in today's tech landscape. Look at any job board or just google "developer jobs", and without a doubt, you will come across multiple listings seeking to hire devs with Python in their armory. So if you want to be more marketable and a more lethal coder, learning Python is a no brainer. 
+
+#### Resources
+
+[Ruby vs. Python: What’s the Difference?](https://learn.onemonth.com/ruby-vs-python/)  
+[Python Docs](https://docs.python.org/3/)  
+[Real Python](https://realpython.com/)   
+[What Is Python Used for?](https://www.stxnext.com/what-is-python-used-for/?_gl=1*nzhwpn*_ga*NDMxMTY4MzYyLjE2MDY2ODc5MjI.*_ga_R2CH941DXR*MTYwNjY4NzkyMS4xLjAuMTYwNjY4NzkyMS42MA..#internet-of-things)  
+[What is Python?](https://pythoninstitute.org/what-is-python/)  
+[Programming language Python's popularity](https://www.zdnet.com/article/programming-language-pythons-popularity-ahead-of-java-for-first-time-but-still-trailing-c/#:~:text=Python%20shows%20a%202.27%25%20rise,JavaScript%20as%20the%20top%20language.)  
+[Variables in Python](https://realpython.com/python-variables/)  
+[Understanding Lists in Python 3](https://www.digitalocean.com/community/tutorials/understanding-lists-in-python-3#:~:text=versions%20279.6k-,Introduction,values%20between%20square%20brackets%20%5B%20%5D%20.)  
+[Dictionaries in Python](https://realpython.com/python-dicts/)  
+
+
 
 
