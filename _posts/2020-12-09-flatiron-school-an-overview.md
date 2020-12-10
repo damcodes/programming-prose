@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Flatiron School  
-subtitle: An Overview of My Experience
+subtitle: An Overview of My Experience and Why You Should Join
 gh-repo: davidmolina2810/programming-prose
 gh-badge: [star, fork, follow]
 tags: 
@@ -34,3 +34,4 @@ So, you've learned new content and passed the code challenge. Week three of each
 To me, the biggest selling point of this program is the community that is cultivated when a diverse group of people come together, attempt to learn a difficult discipline in a short amount of time, and are forced to work together in order to thrive. Not forced as in the instructors holding a gun to our heads and making us work together, but, rather, forced because each individual comes to the conclusion that "wow, I can't do this alone" and we turn to each other for support. Sure, it's possible to learn to become a developer all on your own&mdash;spending months alone at your computer, miserably googling errors, painstakingly trying to piece together a real application, hopelessly rereading freeCodeCamp articles and desperately trying to understand a difficult concept. If being a lonewolf, cowboy type gets your boat rowing, kudos to you. Have fun. At Flatiron, though, prepare for a welcoming, collaborative, and empowering community of instructors and peers ready to lift you up to whatever heights of success you wish to achieve.
 
 ### Conclusion
+Learning any new skill is hard. Learning two programming languages and a couple of frameworks in just three months basically sounds impossible. With the curriculum and structure provided by Flatiron, though, *anyone* can transform their life and become a software developer. No, it's not a magic program that will easily transform you from code newbie to code master, but, rather, and intentionally strenuous program intended to break you down and build you back up as a newly minted programmer. It will be hard. Exceedingly so. Yet, I've always been a firm believe that *anything* worth doing is inherintly difficult. That's why we do it. 
