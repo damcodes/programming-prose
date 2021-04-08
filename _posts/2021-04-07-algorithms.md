@@ -35,3 +35,7 @@ cover-img: https://miro.medium.com/max/2726/0*UVG1F-0kLAEWAT3k
   <li>Devasting lack of preparation.</li>
   <li>Work in progress.</li>
 </ul>
+
+&nbsp;&nbsp;&nbsp;&nbsp;I've always been a strong believer that achieving mastery in anything requires overwhelming tenacity. So, having sulked for a couple hours, I will now attempt energy redirection by taking this failure and educating myself by educating you about algorithms.
+
+
