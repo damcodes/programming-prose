@@ -71,7 +71,7 @@ cover-img: https://miro.medium.com/max/2726/0*UVG1F-0kLAEWAT3k
       <li>Backtracking</li>
       <li>Dynamic Programming</li>
     </ul>
-  <li>Sort</li>
+  <li>Sorting</li>
     <ul>
       <li>Linear</li>
       <li>Bubble</li>
@@ -79,8 +79,23 @@ cover-img: https://miro.medium.com/max/2726/0*UVG1F-0kLAEWAT3k
     </ul>
 </ul>
 
+### Divide and Conquer
 
+&nbsp;&nbsp;&nbsp;&nbsp;Divide and conquer algorithms are exactly what they say they are. You divide a problem into smaller problems, conquer those problems, and combine the results to get your final solution. So, three easy steps:
 
+<ol>
+  <li><strong>Divide</strong>the problem into smallers problems</li>
+  <li><strong>Conquer</strong>the small problems</li>
+  <li><strong>Combine</strong>the small problems to solve the big one</li>
+</ol>
+
+&nbsp;&nbsp;&nbsp;&nbsp;To demonstrate these algorithms I'll use Python.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Say we had an array 
+
+```python3 
+arr = [45, 88, 25, 82, 9, 73, 63, 28, 4, 22]
+```
 
 
 
