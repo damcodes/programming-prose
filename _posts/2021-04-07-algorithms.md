@@ -53,7 +53,9 @@ cover-img: https://miro.medium.com/max/2726/0*UVG1F-0kLAEWAT3k
   <li>Shift gear from parked to drive</li>
   <li>Look both ways</li>
   <li>If no oncoming traffic, floor it</li>
-  <li>Else, wait</li>
+  <li>Else, return to step 4</li>
 </ol>
+
+
 
 
