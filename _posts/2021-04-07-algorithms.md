@@ -89,9 +89,9 @@ cover-img: https://miro.medium.com/max/2726/0*UVG1F-0kLAEWAT3k
   <li><strong>Combine</strong>the small problems to solve the big one</li>
 </ol>
 
-&nbsp;&nbsp;&nbsp;&nbsp;To demonstrate these algorithms I'll use Python.
+**Note**Examples written in Python
 
-&nbsp;&nbsp;&nbsp;&nbsp;Say we had an array 
+Say we had an array such that
 
 ```python3 
 arr = [45, 88, 25, 82, 9, 73, 63, 28, 4, 22]
