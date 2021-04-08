@@ -28,6 +28,7 @@ cover-img: https://miro.medium.com/max/2726/0*UVG1F-0kLAEWAT3k
 </ul>
 
 ### Failure as Fuel in the Enginge of Success
+
 &nbsp;&nbsp;&nbsp;&nbsp;For the moment, I'll answer as follows:
 
 <ul>
@@ -37,5 +38,22 @@ cover-img: https://miro.medium.com/max/2726/0*UVG1F-0kLAEWAT3k
 </ul>
 
 &nbsp;&nbsp;&nbsp;&nbsp;I've always been a strong believer that achieving mastery in anything requires overwhelming tenacity. So, having sulked for a couple hours, I will now attempt energy redirection by taking this failure and educating myself by educating you about algorithms.
+
+### Algorithms
+
+&nbsp;&nbsp;&nbsp;&nbsp;First, a definition: 
+
+>An algorithm is a set of step-by-step procedures, or a set of rules to follow, for completing a specific task or solving a particular problem.
+
+&nbsp;&nbsp;&nbsp;&nbsp;At its core, an algorithm is really just instructions. I'm almost 100% sure I can promise you that you've been exposed to algorithms and algorithmic thinking. If you're a driver, you're actually quite the expert with algorithmic thinking. Think about it, what do you do if you're in your car and you need to drive somewhere? Probably something like this: 
+
+<ol>
+  <li>Insert key into ignition and twist to start</li>
+  <li>Press foot brake and release emergency brake</li>
+  <li>Shift gear from parked to drive</li>
+  <li>Look both ways</li>
+  <li>If no oncoming traffic, floor it</li>
+  <li>Else, wait</li>
+</ol>
 
 
