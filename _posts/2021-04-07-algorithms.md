@@ -39,9 +39,7 @@ cover-img: https://miro.medium.com/max/2726/0*UVG1F-0kLAEWAT3k
 
 &nbsp;&nbsp;&nbsp;&nbsp;I've always been a strong believer that achieving mastery in anything requires overwhelming tenacity. So, having sulked for a couple hours, I will now attempt energy redirection by taking this failure and educating myself by educating you about algorithms.
 
-### Algorithms
-
-&nbsp;&nbsp;&nbsp;&nbsp;First, a definition: 
+## Algorithms
 
 >An algorithm is a set of step-by-step procedures, or a set of rules to follow, for completing a specific task or solving a particular problem.
 
@@ -55,6 +53,34 @@ cover-img: https://miro.medium.com/max/2726/0*UVG1F-0kLAEWAT3k
   <li>If no oncoming traffic, floor it</li>
   <li>Else, return to step 4</li>
 </ol>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Every time you drive in your car, you repeat these steps and so many more. You're a seasoned programmer when it comes to many mundane tasks. With this basic concept that an algorithm is just a set of instructions, we can tackle more complex, "real" computer science concepts.
+
+### Types of Algorithms
+
+&nbsp;&nbsp;&nbsp;&nbsp;There are a bunch of differnt algorithms, but in computer science, the basic kinds are:
+
+<ul>
+  <li>Searching</li>
+    <ul>
+      <li>Divide and Conquer</li>
+      <li>Brute Force</li>
+      <li>Randomized</li>
+      <li>Greedy</li>
+      <li>Recursive</li>
+      <li>Backtracking</li>
+      <li>Dynamic Programming</li>
+    </ul>
+  <li>Sort</li>
+    <ul>
+      <li>Linear</li>
+      <li>Bubble</li>
+      <li>Insertion</li>
+    </ul>
+</ul>
+
+
+
 
 
 
