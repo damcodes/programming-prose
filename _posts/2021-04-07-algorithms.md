@@ -101,7 +101,7 @@ arr = [45, 88, 25, 82, 9, 73, 63, 28, 4, 22]
 How could we sort this array using the divide and conquer technique? Let's break it down:
 
 <ol>
-  <li><strong>Divide</strong> the given array in half<li>
+  <li><strong>Divide</strong> the given array in half</li>
   <li><strong>Conquer</strong> each subarray by sorting them</li>
   <li><strong>Combine</strong> the sorted sub arrays</li>
 </ol>
