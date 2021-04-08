@@ -89,7 +89,8 @@ cover-img: https://miro.medium.com/max/2726/0*UVG1F-0kLAEWAT3k
   <li><strong>Combine</strong>the small problems to solve the big one</li>
 </ol>
 
-**Note**Examples written in Python
+**Note:**Examples written in Python
+{: .box-note}
 
 Say we had an array such that
 
