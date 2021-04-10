@@ -316,19 +316,19 @@ This logic would look like this, completing <strong>coinChange</strong>:
 
 ```python3
 def coinChange(change):
-  coins = [ 25, 10, 5, 1 ] # each element represents a coin
-  coinChange = []
+    coins = [ 25, 10, 5, 1 ] # each element represents a coin
+    coinChange = []
 
-  while change > 0:
-    for coin in coins:
-      if coin <= change:
-        if change - coin > coin:   # handles multiple coins of one value 
-          coinChange.append(coin)
-          change = change - coin
-          break
-        else:
-          coinChange.append(coin)
-          change = change - coin
+    while change > 0:
+        for coin in coins:
+            if coin <= change:
+                if change - coin > coin:   # handles multiple coins of one value 
+                    coinChange.append(coin)
+                    change = change - coin
+                    break
+                else:
+                    coinChange.append(coin)
+                    change = change - coin
   return coinChange
 ```
 
