@@ -121,13 +121,20 @@ subarr1 = [ el for el in arr[:5] ] # [ 45, 88, 25, 82, 9 ]
 subarr2 = [ el for el in arr[5:] ] # [ 73, 63, 28, 4, 22 ]
 ```
 
-So, as per the first step in a Divide and Conquer algorithm, we've divided our array. Now our <strong>mergeSort</strong> function would look like this: 
+Programmatically, we could think about splitting an array into two as finding the midpoint of the array, and setting sub array 1 as the elements in the original array from position 0 to the midpoint and sub array 2 as the elements from the position after the midpoint to the end of the array. For example: 
 
-```python3 
-def mergeSort(arr, start, end): 
-  subarray1 = [ el for el in arr[:5] ]
-  subarray2 = [ el for el in arr[5:] ]
+```python3
+# integers in array
+n = len(arr)
+
+midpoint = n // 2
+
+# subarr1 would be elements from 0 to midpoint of arr 
+subarr1 = arr[0:midpoint]
+# subarr2 would be elements from element after midpoint to the end
+subarr2 = arr[midpoint + 1:n-1]
 ```
+We'll use this logic later to sort sub arrays of any size. As per the first step in a Divide and Conquer algorithm, we've divided our array. 
 
 Next, step 2: conquer each sub array. How? Well, we know our ultimate goal is to have a sorted array. If you had an array with only 2 elements, arr = [ 9, 6 ], how would you sort this? You'd consider the pair of elements, if the first element has a value greater than the second, swap the position of the elements. Using recursion, we'll conquer and sort a sub array by splitting it in half until only 2 elements remain. Then, we'll sort the pair of elements and merge them into an array to be returned.
 
@@ -220,7 +227,6 @@ def sort(arr, start, end):
 Now, we can write a complete <strong>mergeSort</strong> function.
 
 ```python3
-
 def mergeSort(arr): 
 
   def merge(arr, left, mid, right): 
