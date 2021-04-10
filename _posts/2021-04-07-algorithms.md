@@ -220,6 +220,7 @@ def sort(arr, start, end):
 Now, we can write a complete <strong>mergeSort</strong> function.
 
 ```python3
+
 def mergeSort(arr): 
 
   def merge(arr, left, mid, right): 
@@ -288,6 +289,7 @@ def mergeSort(arr):
 
   # start the sort on the whole array
   sort(arr, 0, n-1)
+  ```
 
 
 
