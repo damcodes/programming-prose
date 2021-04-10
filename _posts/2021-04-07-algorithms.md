@@ -322,12 +322,11 @@ def coinChange(change):
     while change > 0:
         for coin in coins:
             if coin <= change:
+                coinChange.append(coin)
                 if change - coin > coin:   # handles multiple coins of one value 
-                    coinChange.append(coin)
                     change = change - coin
                     break
                 else:
-                    coinChange.append(coin)
                     change = change - coin
   return coinChange
 ```
