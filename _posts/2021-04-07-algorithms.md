@@ -79,7 +79,7 @@ cover-img: https://miro.medium.com/max/2726/0*UVG1F-0kLAEWAT3k
     </ul>
 </ul>
 
-### Divide and Conquer
+#### Divide and Conquer
 
 &nbsp;&nbsp;&nbsp;&nbsp;Divide and conquer algorithms are exactly what they say they are. You divide a problem into smaller problems, conquer those problems, and combine the results to get your final solution. So, three easy steps:
 
@@ -296,7 +296,7 @@ def mergeSort(arr):
   sort(arr, 0, n-1)
   ```
 
-### Greedy 
+#### Greedy 
 
 &nbsp;&nbsp;&nbsp;&nbsp;Another type of algorithm is a greedy algorithm. A greedy algorithm is one that finds the optimal global solution by finding the optimal local solution. Basically it maps over an array and runs certain conditons against (this is the local problem), if the optimal local solution contributes to the global solution, take this element. 
 
@@ -354,9 +354,49 @@ Change: 26¢
 Coins: [ 25, 1 ]
 ```
 
+#### Insertion Sort
 
+&nbsp;&nbsp;&nbsp;&nbsp;As opposed to merge sort, an insertion sort is less efficient (especially as the size of the array approaches infinity), but still, it is a fundamental algorithm in computer science. 
 
+An insertion sort works by mapping over an array and comparing one element to the next. If the second element is larger than the first one, insert it before the first element and shift the first element one position forward.
 
+So, our <strong>insertionSort</strong> method will accept one argument, an array. To start the sort, we'll iterate from the second element in the array to the last. We'll keep track of the current element in the array using a variable, curEl. We'll track the previous element in the array using an index. 
+
+```python3
+def insertionSort(arr):
+  
+  # iterate from second element to the end of array
+  for i in range(1, len(arr)):
+
+    # current element
+    curEl = arr[i]
+
+    # move elements behind curEl 1 position forward if greater than curEl
+
+    j = i - 1 # index for previous element
+
+    while j >= 0 and key < arr[j]:
+      arr[j + 1] = arr[j]
+      j -= 1
+    arr[j + 1] = currEl
+
+# driver code
+arr = [ 45, 89, 22, 61, 75 ]
+print(f'Given array: {arr}')
+insertionSort(arr)
+print(f'Sorted array: {arr}')
+```
+Output: 
+```python3
+Given array: [ 45, 89, 22, 61, 75 ]
+Sorted array: [ 22, 45, 61, 75, 89 ]
+```
+
+### Resources
+- [What is an Algorithm and Why Are They Important](https://www.mycodingplace.com/post/what-is-an-algorithm-and-why-are-they-important)
+- [Top Algorithms/Data Stuctures/Concepts every compurter science student should know](https://medium.com/techie-delight/top-algorithms-data-structures-concepts-every-computer-science-student-should-know-e0549c67b4ac)
+- [Python Program for Merge Sort](https://www.geeksforgeeks.org/python-program-for-merge-sort/)
+- [Greed Algorithm](https://www.codesdope.com/course/algorithms-greedy-algorithm/)
       
 
 
