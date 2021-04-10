@@ -11,7 +11,7 @@ thumbnail-img: https://eric.guldbrand.io/projects/data-structures/thumbnail.png
 cover-img: https://miro.medium.com/max/2726/0*UVG1F-0kLAEWAT3k
 ---
 
-### I am a Software Engineer... Right?
+### I'm a Good Programmer... Right?
 
 &nbsp;&nbsp;&nbsp;&nbsp;I graduated from Flatiron School's Software Engineering program on March 12th 2021. Since then, I've been ecstatic&mdash;applying to jobs (that require degrees I don't have), working on new personal projects, and overall feeling like a coding boss. 
 
