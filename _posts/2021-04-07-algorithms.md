@@ -162,44 +162,44 @@ def merge(arr, left, mid, right):
 
   # copy left half of arr into L
   for i in range(0, n1):
-    L[i] = arr[i + 1]
+      L[i] = arr[i + 1]
 
   # copy right half of arr into R
   for j in range(0, n2):
-    R[j] = arr[mid + 1 + j]
+      R[j] = arr[mid + 1 + j]
 ```
 
 Now, we'll take the sub arrays and iterate over them to compare the element at index i from the left sub array to the element at index j in the right sub array. If the left side element, x, is greater than the right side, y, swap the positions of y and x in the original array. 
 
 ```python3
 def merge(arr, left, mid, right):
-  ...
-  i = 0 # track index of L
-  j = 0 # track index of R
-  k = 1 # track index of arr
+    ...
+    i = 0 # track index of L
+    j = 0 # track index of R
+    k = 1 # track index of arr
 
-  # iterate over sub arrays and arr
-  # here we'll start sorting and merging the sub arrays
-  while i < n1 and j < n2:
-    if L[i] <= R[j]:
-      arr[k] = L[i]
-      i += 1
-    else: 
-      arr[k] = R[j]
-      j += 1
-    k += 1
+    # iterate over sub arrays and arr
+    # here we'll start sorting and merging the sub arrays
+    while i < n1 and j < n2:
+        if L[i] <= R[j]:
+            arr[k] = L[i]
+            i += 1
+        else: 
+            arr[k] = R[j]
+            j += 1
+        k += 1
 
-  # copy leftover elements from L into arr
-  while i < n1:
-    arr[k] = L[i]
-    i += 1
-    k += 1
+    # copy leftover elements from L into arr
+    while i < n1:
+        arr[k] = L[i]
+        i += 1
+        k += 1
 
-  # copy leftover elements from R into arr
-  while j < n2: 
-    arr[k] = R[j]
-    j += 1 
-    k += 1
+    # copy leftover elements from R into arr
+    while j < n2: 
+        arr[k] = R[j]
+        j += 1 
+        k += 1
 ```
 
 That completes <strong>merge</strong>. It will take an array, divide into 2 sub arrays, sort each sub array, and merge them back into the original array. 
@@ -208,19 +208,19 @@ Next, we'll implement <strong>sort</strong>, which will serve as the recursive e
 
 ```python3 
 def sort(arr, start, end): 
-  if start < end: # duh
+    if start < end: # duh
 
-    # calculate midpoint, (start + end) // 2
-    m = (l + (r-1)) // 2 # same as above except handles possible overflow
+        # calculate midpoint, (start + end) // 2
+        m = (l + (r-1)) // 2 # same as above except handles possible overflow
 
-    # sort first half of arr
-    sort(arr, start, mid)
+        # sort first half of arr
+        sort(arr, start, mid)
 
-    # sort second half of arr
-    sort(arr, mid + 1, end)
+        # sort second half of arr
+        sort(arr, mid + 1, end)
 
-    # merge the two sub arrays together
-    merge(arr, start, mid, end)
+        # merge the two sub arrays together
+        merge(arr, start, mid, end)
 ```
 
 Now, we can write a complete <strong>mergeSort</strong> function.
@@ -228,73 +228,73 @@ Now, we can write a complete <strong>mergeSort</strong> function.
 ```python3
 def mergeSort(arr): 
 
-  def merge(arr, left, mid, right): 
+    def merge(arr, left, mid, right): 
 
-    # get index range of left side of arr
-    n1 = mid - left + 1
+        # get index range of left side of arr
+        n1 = mid - left + 1
 
-    # get index range of right side of arr
-    n2 = right - mid
+        # get index range of right side of arr
+        n2 = right - mid
 
-    # create 2 temp arrays
-    L = [0] * n1
-    R = [0] * n2
+        # create 2 temp arrays
+        L = [0] * n1
+        R = [0] * n2
 
-    # copy left half of arr into L
-    for i in range(0, n1):
-      L[i] = arr[left + i]
+        # copy left half of arr into L
+        for i in range(0, n1):
+            L[i] = arr[left + i]
 
-    # copy right half of arr into R
-    for j in range(0, n2):
-      R[j] = arr[mid + 1 + j]
+        # copy right half of arr into R
+        for j in range(0, n2):
+            R[j] = arr[mid + 1 + j]
     
-    i = 0 # track index of L
-    j = 0 # track index of R
-    k = left # track index of arr
+        i = 0 # track index of L
+        j = 0 # track index of R
+        k = left # track index of arr
 
-    # iterate over sub arrays and arr
-    # here we'll start sorting and merging the sub arrays
-    while i < n1 and j < n2:
-      if L[i] <= R[j]:
-        arr[k] = L[i]
-        i += 1
-      else: 
-        arr[k] = R[j]
-        j += 1
-      k += 1
+        # iterate over sub arrays and arr
+        # here we'll start sorting and merging the sub arrays
+        while i < n1 and j < n2:
+            if L[i] <= R[j]:
+                arr[k] = L[i]
+                i += 1
+            else: 
+                arr[k] = R[j]
+                j += 1
+            k += 1
 
-    # copy leftover elements from L into arr
-    while i < n1:
-      arr[k] = L[i]
-      i += 1
-      k += 1
+        # copy leftover elements from L into arr
+        while i < n1:
+          arr[k] = L[i]
+          i += 1
+          k += 1
 
-    # copy leftover elements from R into arr
-    while j < n2: 
-      arr[k] = R[j]
-      j += 1 
-      k += 1
+        # copy leftover elements from R into arr
+        while j < n2: 
+          arr[k] = R[j]
+          j += 1 
+          k += 1
 
-  def sort(arr, start, end): 
-    if start < end: # duh
+    def sort(arr, start, end): 
+        if start < end: # duh
 
-      # calculate midpoint, (start + end) // 2
-      mid = (start + (end-1)) // 2 # same as above except handles possible overflow
+            # calculate midpoint, (start + end) // 2
+            mid = (start + (end-1)) // 2 # same as above except handles possible overflow
 
-      # sort first half of arr
-      sort(arr, start, mid)
+            # sort first half of arr
+            sort(arr, start, mid)
 
-      # sort second half of arr
-      sort(arr, mid + 1, end)
+            # sort second half of arr
+            sort(arr, mid + 1, end)
 
-      # merge the two sub arrays together
-      merge(arr, start, mid, end) 
+            # merge the two sub arrays together
+            merge(arr, start, mid, end) 
 
-  n = len(arr)
+    n = len(arr)
 
-  # start the sort on the whole array
-  sort(arr, 0, n-1)
-  ```
+    # start the sort on the whole array
+    sort(arr, 0, n-1)
+```
 
 #### Greedy 
 
@@ -306,9 +306,9 @@ Our method will accept one argument, the value of change to be returned.
 
 ```python3
 def coinChange(change):
-  coins = [ 25, 10, 5, 1 ] # each element represents a coin
-  coinChange = [] # empty array to hold coins
-  i = 0 # initialize index for coinChange
+    coins = [ 25, 10, 5, 1 ] # each element represents a coin
+    coinChange = [] # empty array to hold coins
+    i = 0 # initialize index for coinChange
 ```
 
 Now, what's our global problem? We want an array returned containing integers 1, 5, 10, or 25, representing the coins we'd get back for x amount of change. So, if we have an amount of change, x, we could map over an array representing coins and if the coin value is less than or equal to x, add that coin to the array of coins to be returned&mdash;this is our local problem. Finding the optimal solution to the local problem, whether or not the coin value is less than or equal to the change value, and if so, taking the coin to be returned, ultimately solves our global problem.
@@ -317,32 +317,32 @@ This logic would look like this, completing <strong>coinChange</strong>:
 
 ```python3
 def coinChange(change):
-  coins = [ 25, 10, 5, 1 ] # each element represents a coin
-  coinChange = [] # empty array to hold coins to be returned
-  i = 0 # initialize index for coinChange
+    coins = [ 25, 10, 5, 1 ] # each element represents a coin
+    coinChange = [] # empty array to hold coins to be returned
+    i = 0 # initialize index for coinChange
 
-  while change > 0:
-    for coin in coins:
-      if coin <= change:
-        coinChange.append(coin)
-        i += 1
-        change = change - coin
-  return coinChange
+    while change > 0:
+        for coin in coins:
+            if coin <= change:
+                coinChange.append(coin)
+                i += 1
+                change = change - coin
+    return coinChange
 ```
 
 With <strong>coinChange</strong> we could do something like this: 
 
 ```python3
 def printCoins(price, paid):
-  print(f'Item cost: {price}¢')
-  print(f'Amount paid: {paid}¢')
+    print(f'Item cost: {price}¢')
+    print(f'Amount paid: {paid}¢')
 
-  if paid > price: 
-    change = paid - price
-    print(f'Change: {change}¢')
-    print(f'Coins: {coinChange(change)}')
-  else:
-    print("Insufficient funds.")
+    if paid > price: 
+        change = paid - price
+        print(f'Change: {change}¢')
+        print(f'Coins: {coinChange(change)}')
+    else:
+        print("Insufficient funds.")
   
 printCoins(54, 80)
 ```
@@ -365,20 +365,20 @@ So, our <strong>insertionSort</strong> method will accept one argument, an array
 ```python3
 def insertionSort(arr):
   
-  # iterate from second element to the end of array
-  for i in range(1, len(arr)):
+    # iterate from second element to the end of array
+    for i in range(1, len(arr)):
 
-    # current element
-    curEl = arr[i]
+        # current element
+        curEl = arr[i]
 
-    # move elements behind curEl 1 position forward if greater than curEl
+        # move elements behind curEl 1 position forward if greater than curEl
 
-    j = i - 1 # index for previous element
+        j = i - 1 # index for previous element
 
-    while j >= 0 and key < arr[j]:
-      arr[j + 1] = arr[j]
-      j -= 1
-    arr[j + 1] = currEl
+        while j >= 0 and key < arr[j]:
+            arr[j + 1] = arr[j]
+            j -= 1
+        arr[j + 1] = currEl
 
 # driver code
 arr = [ 45, 89, 22, 61, 75 ]
