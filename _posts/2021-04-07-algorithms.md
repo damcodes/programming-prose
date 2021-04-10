@@ -345,7 +345,7 @@ def printCoins(price, paid):
     else:
         print("Insufficient funds.")
   
-printCoins(54, 80)
+printCoins(16, 80)
 ```
 Output:
 ```python3
