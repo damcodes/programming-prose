@@ -113,9 +113,8 @@ def mergeSort(arr):
   ...
 ```
 
-Now, lets think about dividing the array. If we have an array of n integers (n=10 in my example), what's the easiest way of dividing it? I'd say in half. Intuitively, if you have 10 integers and you want to split it in half, you would split the integers into 2 groups of 5. 
+Now, lets think about dividing the array. If we have an array of n integers (n=10 in my example), what's the easiest way of dividing it? I'd say in half. Intuitively, if you have 10 integers and you want to split it in half, you would split the integers into 2 groups of 5. To apply the same logic to an array of n integers, we would do the following: 
 
-For example: 
 
 ```python3 
 subarr1 = [ el for el in arr[:5] ] # [ 45, 88, 25, 82, 9 ]
@@ -162,6 +161,143 @@ def merge(arr, left, mid, right):
   for j in range(0, n2):
     R[j] = arr[mid + 1 + j]
 ```
+
+Now, we'll take the sub arrays and iterate over them to compare the element at index i from the left sub array to the element at index i in the right sub array. If the left side element, x, is greater than the right side, y, swap the positions of y and x in the original array. 
+
+```python3
+def merge(arr, left, mid, right):
+  ...
+  i = 0 # track index of L
+  j = 0 # track index of R
+  k = 1 # track index of arr
+
+  # iterate over sub arrays and arr
+  # here we'll start sorting and merging the sub arrays
+  while i < n1 and j < n2:
+    if L[i] <= R[j]:
+      arr[k] = L[i]
+      i += 1
+    else: 
+      arr[k] = R[j]
+      j += 1
+    k += 1
+
+  # copy leftover elements from L into arr
+  while i < n1:
+    arr[k] = L[i]
+    i += 1
+    k += 1
+
+  # copy leftover elements from R into arr
+  while j < n2: 
+    arr[k] = R[j]
+    j += 1 
+    k += 1
+```
+
+That completes <strong>merge</strong>. It will take an array, divide into 2 sub arrays, sort each sub array, and merge them back into the original array. 
+
+Next, we'll implement <strong>sort</strong>.
+<strong>sort</strong> will serve as the recursive engine in our function. We'll pass an array, a starting index, and an ending index to it, and it will call itself on each half of the array, every time dividing each sub array in half, until it gets down to an array with 2 elements. Then the sorting and merging begins. 
+
+```python3 
+def sort(arr, start, end): 
+  if start < end: # duh
+
+    # calculate midpoint, (start + end) // 2
+    m = (l + (r-1)) // 2 # same as above except handles possible overflow
+
+    # sort first half of arr
+    sort(arr, start, mid)
+
+    # sort second half of arr
+    sort(arr, mid + 1, end)
+
+    # merge the two sub arrays together
+    merge(arr, start, mid, end)
+```
+
+Now, we can write a complete <strong>mergeSort</strong> function.
+
+```python3
+def mergeSort(arr): 
+
+  def merge(arr, left, mid, right): 
+
+    # get index range of left side of arr
+    n1 = mid - left + 1
+
+    # get index range of right side of arr
+    n2 = right - mid
+
+    # create 2 temp arrays
+    L = [0] * n1
+    R = [0] * n2
+
+    # copy left half of arr into L
+    for i in range(0, n1):
+      L[i] = arr[left + i]
+
+    # copy right half of arr into R
+    for j in range(0, n2):
+      R[j] = arr[mid + 1 + j]
+    
+    i = 0 # track index of L
+    j = 0 # track index of R
+    k = left # track index of arr
+
+    # iterate over sub arrays and arr
+    # here we'll start sorting and merging the sub arrays
+    while i < n1 and j < n2:
+      if L[i] <= R[j]:
+        arr[k] = L[i]
+        i += 1
+      else: 
+        arr[k] = R[j]
+        j += 1
+      k += 1
+
+    # copy leftover elements from L into arr
+    while i < n1:
+      arr[k] = L[i]
+      i += 1
+      k += 1
+
+    # copy leftover elements from R into arr
+    while j < n2: 
+      arr[k] = R[j]
+      j += 1 
+      k += 1
+
+  def sort(arr, start, end): 
+    if start < end: # duh
+
+      # calculate midpoint, (start + end) // 2
+      mid = (start + (end-1)) // 2 # same as above except handles possible overflow
+
+      # sort first half of arr
+      sort(arr, start, mid)
+
+      # sort second half of arr
+      sort(arr, mid + 1, end)
+
+      # merge the two sub arrays together
+      merge(arr, start, mid, end) 
+
+  n = len(arr)
+
+  # start the sort on the whole array
+  sort(arr, 0, n-1)
+
+
+
+
+      
+
+
+  
+
+
 
 
 
