@@ -169,7 +169,7 @@ def merge(arr, left, mid, right):
     R[j] = arr[mid + 1 + j]
 ```
 
-Now, we'll take the sub arrays and iterate over them to compare the element at index i from the left sub array to the element at index i in the right sub array. If the left side element, x, is greater than the right side, y, swap the positions of y and x in the original array. 
+Now, we'll take the sub arrays and iterate over them to compare the element at index i from the left sub array to the element at index j in the right sub array. If the left side element, x, is greater than the right side, y, swap the positions of y and x in the original array. 
 
 ```python3
 def merge(arr, left, mid, right):
@@ -204,8 +204,7 @@ def merge(arr, left, mid, right):
 
 That completes <strong>merge</strong>. It will take an array, divide into 2 sub arrays, sort each sub array, and merge them back into the original array. 
 
-Next, we'll implement <strong>sort</strong>.
-<strong>sort</strong> will serve as the recursive engine in our function. We'll pass an array, a starting index, and an ending index to it, and it will call itself on each half of the array, every time dividing each sub array in half, until it gets down to an array with 2 elements. Then the sorting and merging begins. 
+Next, we'll implement <strong>sort</strong>, which will serve as the recursive engine in our function. We'll pass an array, a starting index, and an ending index to it, and it will call itself on each half of the array, every time dividing each sub array in half, until it gets down to an array with 2 elements. Then the sorting and merging begins. 
 
 ```python3 
 def sort(arr, start, end): 
