@@ -319,13 +319,11 @@ This logic would look like this, completing <strong>coinChange</strong>:
 def coinChange(change):
     coins = [ 25, 10, 5, 1 ] # each element represents a coin
     coinChange = [] # empty array to hold coins to be returned
-    i = 0 # initialize index for coinChange
 
     while change > 0:
         for coin in coins:
             if coin <= change:
                 coinChange.append(coin)
-                i += 1
                 change = change - coin
     return coinChange
 ```
