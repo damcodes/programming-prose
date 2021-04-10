@@ -308,7 +308,6 @@ Our method will accept one argument, the value of change to be returned.
 def coinChange(change):
     coins = [ 25, 10, 5, 1 ] # each element represents a coin
     coinChange = [] # empty array to hold coins
-    i = 0 # initialize index for coinChange
 ```
 
 Now, what's our global problem? We want an array returned containing integers 1, 5, 10, or 25, representing the coins we'd get back for x amount of change. So, if we have an amount of change, x, we could map over an array representing coins and if the coin value is less than or equal to x, add that coin to the array of coins to be returned&mdash;this is our local problem. Finding the optimal solution to the local problem, whether or not the coin value is less than or equal to the change value, and if so, taking the coin to be returned, ultimately solves our global problem.
