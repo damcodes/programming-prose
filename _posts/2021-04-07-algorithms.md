@@ -325,7 +325,7 @@ def coinChange(change):
                 coinChange.append(coin)
                 if change - coin > coin:   # handles multiple coins of one value 
                     change = change - coin
-                    break
+                    break                  # restart for loop
                 else:
                     change = change - coin
   return coinChange
@@ -349,10 +349,10 @@ printCoins(54, 80)
 ```
 Output:
 ```python3
-Item cost: 54¢
+Item cost: 16¢
 Amount paid: 80¢
-Change: 26¢
-Coins: [ 25, 1 ]
+Change: 64¢
+Coins: [25, 25, 10, 1, 1, 1, 1]
 ```
 
 #### Insertion Sort
