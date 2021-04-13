@@ -376,7 +376,7 @@ def insertionSort(arr):
 
         j = i - 1 # index for previous element
 
-        while j >= 0 and key < arr[j]:
+        while j >= 0 and curEl < arr[j]:
             arr[j + 1] = arr[j]
             j -= 1
         arr[j + 1] = currEl
