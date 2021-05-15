@@ -36,7 +36,7 @@ Fast forward to today and here I am, actually learning to become the wizard youn
 
 As I'm progressing through each phase at Flatiron, though, these two parts of myself are beginning to conflict. At Flatiron, we are learning all the latest concepts, practices, and frameworks. All the cutting edge spells and potions. While it's awesome, and deploying a whole web app with just a few spells, a few commands in the terminal, really feels like performing magic, my more analytical self is really struggling to accept it. 
 
-To be fair, my instructors at Flatiron are awesome--true wizards with vast knowledge and mastery of the programming arts. Despite this mastery, they simply could not teach us all the low-level computer knowledge I seek. Their job is to prepare us to become employable devs in 15 weeks, not squeeze in all the knowledge you'd learn in a 4+ year Computer Science degree. Lucky for us, we now live in a time where you don't _need_ all that CS knowledge to be an employable dev.
+To be fair, my instructors at Flatiron are awesome&mdash;true wizards with vast knowledge and mastery of the programming arts. Despite this mastery, they simply could not teach us all the low-level computer knowledge I seek. Their job is to prepare us to become employable devs in 15 weeks, not squeeze in all the knowledge you'd learn in a 4+ year Computer Science degree. Lucky for us, we now live in a time where you don't _need_ all that CS knowledge to be an employable dev.
 
 ### Ruby, ActiveRecord, Rails etc. A.K.A.: Magic
 
