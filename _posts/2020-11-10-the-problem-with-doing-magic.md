@@ -8,7 +8,6 @@ tags:
 comments: true
 readtime: true
 cover-img: https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSWgD5tKRkLMgsFA5vJ5U2rs8QYXebTi4SlTQ&usqp=CAU
-thumbnail-img: https://www.qat.com/wp-content/uploads/2020/08/wizard.jpg
 ---
 
 ### Enter Wizard Boy
