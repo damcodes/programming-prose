@@ -18,7 +18,7 @@ navbar-links:
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://github.com/davidmolina2810"
+  Author's home: "https://github.com/damcodes"
 
 # --- Logo --- #
 
@@ -41,8 +41,8 @@ round-avatar: true
 social-network-links:
   email: "davidmolina2810@gmail.com"
   #facebook: deanattali
-  github: davidmolina2810
-  twitter: _davidamolina
+  github: damcodes
+# twitter: _davidamolina
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
