@@ -15,10 +15,7 @@ author: David A. Molina
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://github.com/damcodes"
+  GitHub: "https://github.com/damcodes"
 
 # --- Logo --- #
 
